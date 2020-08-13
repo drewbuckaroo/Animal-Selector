@@ -5,21 +5,21 @@ $(document).ready(function() {
 
     if (animal === "snake") {
         $(".snake").show();
-        $(".opposum").hide();
+        $(".opossum").hide();
         $(".badger").hide();
         $(".wolverine").hide();
 
 
     } else if (animal === "wolverine") {
         $(".wolverine").show();
-        $(".opposum").hide();
+        $(".opossum").hide();
         $(".badger").hide();
         $(".snake").hide();
 
 
       } else if (animal === "badger") {
         $(".badger").show();
-        $(".opposum").hide();
+        $(".opossum").hide();
         $(".snake").hide();
         $(".wolverine").hide();
 
@@ -31,7 +31,7 @@ $(document).ready(function() {
         $(".wolverine").hide();
 
       } else {
-        $(".opposum").hide();
+        $(".opossum").hide();
         $(".badger").hide();
         $(".wolverine").hide();
         $(".badger").hide();
